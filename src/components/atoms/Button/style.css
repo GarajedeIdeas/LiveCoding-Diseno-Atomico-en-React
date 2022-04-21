@@ -1,0 +1,40 @@
+.button {
+    padding: 6px 15px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 5px;
+    transition: opacity .5s;
+}
+
+.button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.button.light {
+    background-color: #e4e4e4;
+    color: #000;
+}
+
+.button.dark {
+    background-color: #000;
+    color: white;
+}
+
+.button.warning {
+    background-color: #ffe2a3;
+    color: #000;
+}
+
+.button.hasIcon {
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+}
+
+.button.hasIcon svg {
+    width: 10px;
+    margin-right: 10px;
+}

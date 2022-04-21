@@ -1,0 +1,13 @@
+.cards-slider {
+    padding: 15px;
+}
+
+.cards-slider .slider {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.cards-slider.special {
+    background-color: #e3e2bd;
+}

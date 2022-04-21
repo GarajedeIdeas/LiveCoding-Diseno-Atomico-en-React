@@ -1,0 +1,19 @@
+.footerBar {
+    text-align: center;
+    padding: 4px;
+    margin: 0;
+    background-color: white;
+    border-top: 1px solid #eaeaea;
+    font-size: .8em;
+}
+
+.footerBar.fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerBar p {
+    margin: 0;
+    opacity: .6;
+}

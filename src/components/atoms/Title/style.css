@@ -1,0 +1,11 @@
+h1,
+h2,
+h3 {
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: 200;
+}
+
+h3 {
+    font-size: 1em;
+}
